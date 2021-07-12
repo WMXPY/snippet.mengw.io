@@ -12,6 +12,7 @@ This site collect cool links.
 -   [Brontosaurus](https://github.com/SudoDotDog/Brontosaurus) authorization solution > [Brontosaurus Land](https://brontosaurus.land)
 -   SudoDotDog Package Index > [sudo.dog](https://sudo.dog)
 -   BWNL Package Index > [BWNL.io](https://bwnl.io)
--   My personal blog > [WMXPY's Automated Bug Factory](https://mengw.io)
+-   Amazing Links > [link.mengw.io](https://link.mengw.io)
+-   My Work and Me > [mengw.io](https://mengw.io)
 
 > Built with Love by [WMXPY](//github.com/WMXPY) & [PCXPY](//github.com/PCXPY)
