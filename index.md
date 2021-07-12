@@ -4,7 +4,7 @@ This site collect cool links.
 
 ## Categories
 
--   [Git](./category/git.md)
+-   [Git](./category/git)
 
 ## Links
 
