@@ -1,3 +1,3 @@
-# snippet.sudo.dog
+# snippet.mengw.io
 
 Code &amp; Command Snippets Site
