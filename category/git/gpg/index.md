@@ -23,7 +23,17 @@ layout: default
 {% include_relative config-git.sh %}
 ```
 
-> <{{ site.url }}{{ page.url }}config-git.sh>
+> {{ "config-git.sh" | curl_link:page,1 }}
+
+## E
+
+### Export Public Key
+
+```sh
+{% include_relative export-public.sh %}
+```
+
+> <{{ site.url }}{{ page.url }}export-public.sh>
 
 ## G
 
