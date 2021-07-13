@@ -9,6 +9,7 @@ This site collect cool links.
 
 ## Categories
 
+-   [Hello World](./category/hello-world)
 -   [Git](./category/git)
 
 ## Links

@@ -8,10 +8,19 @@ module Jekyll::SnippetFilters
 
     parameters_string = ''
 
-    parameters.times do |i| 
-      parameters_string += "arg#{i + 1}"
-      if (i < parameters - 1)
-        parameters_string += ' '
+    if parameters == 0
+
+      return "curl -s <#{site_url}#{page_url}#{input}> \\| bash"
+    elsif parameters == 1
+
+      parameters_string = 'arg'
+    elsif
+
+      parameters.times do |i| 
+        parameters_string += "arg#{i + 1}"
+        if (i < parameters - 1)
+          parameters_string += ' '
+        end
       end
     end
 

@@ -13,7 +13,7 @@ layout: default
 {% include_relative backup-key.sh %}
 ```
 
-> <{{ site.url }}{{ page.url }}backup-key.sh>
+> {{ "backup-key.sh" | curl_link:page,2 }}
 
 ## C
 
@@ -33,7 +33,7 @@ layout: default
 {% include_relative export-public.sh %}
 ```
 
-> <{{ site.url }}{{ page.url }}export-public.sh>
+> {{ "export-public.sh" | curl_link:page,1 }}
 
 ## G
 
@@ -43,7 +43,7 @@ layout: default
 {% include_relative full-generate-key.sh %}
 ```
 
-> <{{ site.url }}{{ page.url }}full-generate-key.sh>
+> {{ "full-generate-key.sh" | curl_link:page }}
 
 ## L
 
@@ -53,7 +53,7 @@ layout: default
 {% include_relative list-keys.sh %}
 ```
 
-> <{{ site.url }}{{ page.url }}list-keys.sh>
+> {{ "list-keys.sh" | curl_link:page }}
 
 ## R
 
@@ -63,4 +63,4 @@ layout: default
 {% include_relative restore-key.sh %}
 ```
 
-> <{{ site.url }}{{ page.url }}restore-key.sh>
+> {{ "restore-key.sh" | curl_link:page,2 }}
