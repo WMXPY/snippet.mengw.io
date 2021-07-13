@@ -8,7 +8,7 @@
 {% include_relative backup-key.sh %}
 ```
 
-> <https://snippet.mengw.io/category/git/gpg/backup-key.sh>
+> <{{ site.url }}/{{ page.url }}/backup-key.sh>
 
 ## C
 
