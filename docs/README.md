@@ -1,3 +1,5 @@
 # snippet.mengw.io
 
-Code &amp; Command Snippets Site
+Code & Command Snippets Site
+
+Visit <https://snippet.mengw.io>
