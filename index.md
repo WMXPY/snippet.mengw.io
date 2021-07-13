@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Amazing Snippets
-
 This site collect cool links.
 
 ## Categories
