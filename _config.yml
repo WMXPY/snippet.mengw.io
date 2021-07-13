@@ -1,11 +1,19 @@
 title: snippet.mengw.io
+email: wm@mengw.io
 description: WMXPY's Amazing Snippets
 url: https://snippet.mengw.io
 github_username:  WMXPY 
 author_info: <a href="http://mengw.io/">WMXPY</a>
+theme: minima
 markdown: kramdown
 kramdown:
     input: GFM
     hard_wrap: false
 author:
   name: WMXPY
+exclude:
+  - .jekyll-cache/
+  - docs/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
