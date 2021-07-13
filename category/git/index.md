@@ -1,3 +1,8 @@
+---
+title: Git
+layout: default
+---
+
 # Git
 
 ## G

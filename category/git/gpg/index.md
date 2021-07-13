@@ -1,4 +1,9 @@
-# GPG - Git
+---
+title: GPG - Git
+layout: default
+---
+
+# GPG < [Git](../)
 
 ## B
 
