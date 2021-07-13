@@ -1,4 +1,5 @@
 ---
+title: Amazing Snippets
 layout: home
 ---
 
