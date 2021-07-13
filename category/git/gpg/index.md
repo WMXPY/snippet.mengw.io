@@ -13,5 +13,5 @@
 ### List Keys
 
 ```sh
-gpg --list-secret-keys --keyid-format=long
+{% include_relative list-keys.sh %}
 ```

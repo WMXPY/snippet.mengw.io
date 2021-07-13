@@ -2,6 +2,6 @@
 
 ## G
 
-### `Subcategory` GPG
+### [`Subcategory` GPG](./gpg)
 
-Genreate, Export and Manage GPG key for commit sign
+Generate, Export and Manage GPG key for commit sign
