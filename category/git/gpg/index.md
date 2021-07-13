@@ -8,7 +8,7 @@
 {% include_relative backup-key.sh %}
 ```
 
-> <{{ site.url }}/{{ page.url }}/backup-key.sh>
+> <{{ site.url }}{{ page.url }}backup-key.sh>
 
 ## C
 
@@ -18,7 +18,7 @@
 {% include_relative config-git.sh %}
 ```
 
-> <https://snippet.mengw.io/category/git/gpg/config-git.sh>
+> <{{ site.url }}{{ page.url }}config-git.sh>
 
 ## G
 
@@ -28,7 +28,7 @@
 {% include_relative full-generate-key.sh %}
 ```
 
-> <https://snippet.mengw.io/category/git/gpg/full-generate-key.sh>
+> <{{ site.url }}{{ page.url }}full-generate-key.sh>
 
 ## L
 
@@ -38,7 +38,7 @@
 {% include_relative list-keys.sh %}
 ```
 
-> <https://snippet.mengw.io/category/git/gpg/list-keys.sh>
+> <{{ site.url }}{{ page.url }}list-keys.sh>
 
 ## R
 
@@ -48,4 +48,4 @@
 {% include_relative restore-key.sh %}
 ```
 
-> <https://snippet.mengw.io/category/git/gpg/restore-key.sh>
+> <{{ site.url }}{{ page.url }}restore-key.sh>
