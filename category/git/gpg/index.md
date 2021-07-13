@@ -1,5 +1,15 @@
 # GPG - Git
 
+## B
+
+### Backup Key
+
+```sh
+{% include_relative backup-key.sh %}
+```
+
+> <https://snippet.mengw.io/category/git/gpg/backup-key.sh>
+
 ## G
 
 ### Generate Key
