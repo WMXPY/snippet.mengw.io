@@ -8,7 +8,7 @@
 {% include_relative full-generate-key.sh %}
 ```
 
-> {% site.url %}
+> <https://snippet.mengw.io/category/gpg/full-generate-key.sh>
 
 ## L
 
@@ -18,4 +18,4 @@
 {% include_relative list-keys.sh %}
 ```
 
-> {% site.url %}
+> <https://snippet.mengw.io/category/gpg/list-keys.sh>
