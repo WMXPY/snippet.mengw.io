@@ -1,4 +1,4 @@
-# Amazing Snippts
+# Amazing Snippets
 
 This site collect cool links.
 
