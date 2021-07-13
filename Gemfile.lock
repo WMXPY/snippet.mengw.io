@@ -97,12 +97,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.2.0)
+  jekyll
   jekyll-github-metadata
-  minima (~> 2.5)
-  tzinfo (~> 1.2)
+  minima
+  tzinfo
   tzinfo-data
-  wdm (~> 0.1.1)
+  wdm
 
 BUNDLED WITH
    2.2.23
