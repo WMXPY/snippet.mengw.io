@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Amazing Links
+# Amazing Snippets
 
 This site collect cool links.
 
