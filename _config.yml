@@ -8,11 +8,13 @@ repository: WMXPY/snippet.mengw.io
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
+  hard_wrap: true
   syntax_highlighter: rouge
 author:
   name: WMXPY
   email: wm@mengw.io
+sass:
+  sass_dir: _sass
 plugins:
   - jekyll-github-metadata
 exclude:

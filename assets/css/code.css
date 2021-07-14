@@ -1,6 +1,34 @@
 [data-lang]::before {
+
     content: attr(data-lang);
     display: block;
     text-align: right;
-    color: gray;
+    color: darkgray;
+}
+
+.copyable-code-header {
+
+    position: relative;
+}
+
+.copyable-code-button {
+
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-column-gap: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 4px 8px;
+}
+
+.copyable-code-button::before {
+
+    content: "Copy-Code";
+}
+
+.copyable-code-button.copied::before {
+
+    content: "Copied";
 }
