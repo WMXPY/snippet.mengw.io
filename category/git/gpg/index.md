@@ -9,7 +9,7 @@ layout: default
 
 ### Backup Key
 
-{% include highlight.html 
+{% include copyable-highlight.html 
     language="shell"
     file="backup-key.sh"
 %}
