@@ -2,9 +2,10 @@ title: snippet.mengw.io
 email: wm@mengw.io
 description: Amazing Snippets
 url: https://snippet.mengw.io
-github_username:  WMXPY
+github_username: WMXPY
 theme: minima
 repository: WMXPY/snippet.mengw.io
+highlighter: rouge
 plugins:
   - jekyll-github-metadata
 exclude:
