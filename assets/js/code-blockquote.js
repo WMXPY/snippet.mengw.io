@@ -1,5 +1,5 @@
-const codeBlocks = document.querySelectorAll('code[data-lang]');
-const copyCodeButtons = document.querySelectorAll('.copyable-code-button');
+const codeBlocks = document.querySelectorAll('.copyable-block-container');
+const copyCodeButtons = document.querySelectorAll('.copyable-block-button');
 
 copyCodeButtons.forEach((copyCodeButton, index) => {
 
@@ -13,7 +13,7 @@ copyCodeButtons.forEach((copyCodeButton, index) => {
         window.navigator.clipboard.writeText(code);
         copyCodeButton.classList.add('copied');
 
-        setTimeout(() => {
+        timer = setTimeout(() => {
             copyCodeButton.classList.remove('copied');
         }, 2000);
     });
