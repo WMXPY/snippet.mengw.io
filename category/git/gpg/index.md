@@ -9,7 +9,7 @@ layout: default
 
 ### Backup Key
 
-{% include copyable-highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="backup-key.sh"
 %}
@@ -20,7 +20,7 @@ layout: default
 
 ### Config Git
 
-{% include highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="config-git.sh"
 %}
@@ -31,7 +31,7 @@ layout: default
 
 ### Export Public Key
 
-{% include highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="export-public.sh"
 %}
@@ -42,7 +42,7 @@ layout: default
 
 ### Generate Key
 
-{% include highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="full-generate-key.sh"
 %}
@@ -53,7 +53,7 @@ layout: default
 
 ### List Keys
 
-{% include highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="list-keys.sh"
 %}
@@ -64,7 +64,7 @@ layout: default
 
 ### Restore Key
 
-{% include highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="restore-key.sh"
 %}

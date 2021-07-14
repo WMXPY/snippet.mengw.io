@@ -9,7 +9,7 @@ layout: default
 
 ### Hello World
 
-{% include highlight.html 
+{% include copyable-highlight.html
     language="shell"
     file="hello-world.sh"
 %}
