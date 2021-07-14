@@ -3,7 +3,7 @@ title: GPG - Git
 layout: default
 ---
 
-# GPG < [Git](../)
+# GPG - [Git](../)
 
 ## B
 
