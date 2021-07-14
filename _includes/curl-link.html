@@ -1,3 +1,6 @@
 <blockquote>
-  {{ site.url }}{{ page.url }}{{ include.file }}
+    <p>
+        bash <(curl -s <a href="{{ site.url }}{{ page.url }}{{ include.file }}">
+            {{ site.url }}{{ page.url }}{{ include.file }}</a>)
+    </p>
 </blockquote>

@@ -13,4 +13,4 @@ layout: default
 {% include_relative hello-world.sh %}
 ```
 
-> {{ "hello-world.sh" | curl_link:page,1 }}
+{% include curl-link.html file="hello-world.sh" %}
