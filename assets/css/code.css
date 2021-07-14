@@ -1,6 +1,9 @@
 [data-lang]::before {
 
     content: attr(data-lang);
+    position: sticky;
+    left: 0;
+    top: 0;
     display: block;
     text-align: right;
     color: darkgray;
