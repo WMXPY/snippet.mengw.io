@@ -9,9 +9,10 @@ layout: default
 
 ### Backup Key
 
-```sh
-{% include_relative backup-key.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="backup-key.sh"
+%}
 
 {% include curl-link.html file="backup-key.sh" %}
 
@@ -19,9 +20,10 @@ layout: default
 
 ### Config Git
 
-```sh
-{% include_relative config-git.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="config-git.sh"
+%}
 
 {% include curl-link.html file="config-git.sh" %}
 
@@ -29,9 +31,10 @@ layout: default
 
 ### Export Public Key
 
-```sh
-{% include_relative export-public.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="export-public.sh"
+%}
 
 {% include curl-link.html file="export-public.sh" %}
 
@@ -39,9 +42,10 @@ layout: default
 
 ### Generate Key
 
-```sh
-{% include_relative full-generate-key.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="full-generate-key.sh"
+%}
 
 {% include curl-link.html file="full-generate-key.sh" %}
 
@@ -49,9 +53,10 @@ layout: default
 
 ### List Keys
 
-```sh
-{% include_relative list-keys.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="list-keys.sh"
+%}
 
 {% include curl-link.html file="list-keys.sh" %}
 
@@ -59,8 +64,9 @@ layout: default
 
 ### Restore Key
 
-```sh
-{% include_relative restore-key.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="restore-key.sh"
+%}
 
 {% include curl-link.html file="restore-key.sh" %}

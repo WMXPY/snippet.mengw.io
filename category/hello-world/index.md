@@ -9,8 +9,9 @@ layout: default
 
 ### Hello World
 
-```sh
-{% include_relative hello-world.sh %}
-```
+{% include highlight.html 
+    language="shell"
+    file="hello-world.sh"
+%}
 
 {% include curl-link.html file="hello-world.sh" %}

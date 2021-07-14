@@ -1,4 +1,4 @@
-pre::before {
+code::before {
     content: attr(data-lang);
     display: block;
     text-align: right;
