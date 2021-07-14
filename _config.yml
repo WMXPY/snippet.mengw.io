@@ -5,7 +5,13 @@ url: https://snippet.mengw.io
 github_username: WMXPY
 theme: minima
 repository: WMXPY/snippet.mengw.io
-highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+author:
+  name: WMXPY
+  email: wm@mengw.io
 plugins:
   - jekyll-github-metadata
 exclude:
