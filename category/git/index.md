@@ -10,3 +10,9 @@ layout: default
 ### [`Subcategory` GPG](./gpg)
 
 Generate, Export and Manage GPG key for commit sign
+
+## S
+
+### [`Subcategory` Setup](./setup)
+
+First-Time Git Setup
