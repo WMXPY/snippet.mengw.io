@@ -1,20 +1,22 @@
-const codeBlocks = document.querySelectorAll('code[data-lang]');
-const copyCodeButtons = document.querySelectorAll('.copyable-code-button');
+(() => {
+    const highlightBlocks = document.querySelectorAll('code[data-lang]');
+    const highlightCodeButtons = document.querySelectorAll('.copyable-code-button');
 
-copyCodeButtons.forEach((copyCodeButton, index) => {
+    highlightCodeButtons.forEach((copyCodeButton, index) => {
 
-    const code = codeBlocks[index].innerText;
-    let timer;
+        const code = highlightBlocks[index].innerText;
+        let timer;
 
-    copyCodeButton.addEventListener('click', () => {
+        copyCodeButton.addEventListener('click', () => {
 
-        clearTimeout(timer);
+            clearTimeout(timer);
 
-        window.navigator.clipboard.writeText(code);
-        copyCodeButton.classList.add('copied');
+            window.navigator.clipboard.writeText(code);
+            copyCodeButton.classList.add('copied');
 
-        timer = setTimeout(() => {
-            copyCodeButton.classList.remove('copied');
-        }, 2000);
+            timer = setTimeout(() => {
+                copyCodeButton.classList.remove('copied');
+            }, 2000);
+        });
     });
-});
+})();
