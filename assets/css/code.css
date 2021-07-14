@@ -1,5 +1,6 @@
-code::before {
+[data-lang]::before {
     content: attr(data-lang);
     display: block;
     text-align: right;
+    color: gray;
 }
