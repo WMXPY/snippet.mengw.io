@@ -14,7 +14,7 @@ layout: default
     file="decode-string.java"
 %}
 
-{% include curl-link.html file="decode-string.java" %}
+{% include curl-download.html file="decode-string.java" %}
 
 ## E
 
@@ -25,4 +25,4 @@ layout: default
     file="encode-string.java"
 %}
 
-{% include curl-link.html file="encode-string.java" %}
+{% include curl-download.html file="encode-string.java" %}
