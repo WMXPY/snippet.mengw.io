@@ -27,6 +27,17 @@ layout: default
 
 {% include curl-link.html file="config-git.sh" %}
 
+## D
+
+### Disable Git
+
+{% include copyable-highlight.html
+    language="shell"
+    file="disable-git.sh"
+%}
+
+{% include curl-link.html file="disable-git.sh" %}
+
 ## E
 
 ### Export Public Key
