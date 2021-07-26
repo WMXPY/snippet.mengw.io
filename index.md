@@ -12,6 +12,7 @@ This site collect cool links.
 -   [Git](./category/git)
 -   [Hello World](./category/hello-world)
 -   [Java](./category/java)
+-   [Ruby](./category/ruby)
 
 ## Links
 
