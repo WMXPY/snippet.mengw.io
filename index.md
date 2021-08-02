@@ -13,6 +13,7 @@ This site collect cool links.
 -   [Hello World](./category/hello-world)
 -   [Java](./category/java)
 -   [Ruby](./category/ruby)
+-   [Sudo](./category/sudo)
 
 ## Links
 
