@@ -10,5 +10,6 @@ layout: default
 ### Triforce Installation
 
 {% include copyable-npm-package.html
+    development=true
     package="@sudoo/triforce"
 %}
